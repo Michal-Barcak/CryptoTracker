@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crypto App</title>
+    <script src="{{ url_for('static', path='script.js') }}" defer></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .search-form { margin-bottom: 20px; }
+        .result { margin-top: 20px; padding: 10px; border: 1px solid #ddd; }
+        button { padding: 8px 16px; background-color: #23c4d9; color: white; border: none; cursor: pointer; }
+        input { padding: 8px; width: 300px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CryptoTracker</h1>
+        <div class="search-form">
+            <form id="search-form">
+                <input type="text" id="crypto-id" placeholder="Enter the cryptocurrency ID (e.g. bitcoin)">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <div id="result" class="result" style="display: none;"></div>
+        <button id="action-button" style="display: none;">Akcia</button>
+        
+        <h2>Stored cryptocurrencies</h2>
+        <div id="saved-cryptos"></div>
+    </div>
+</body>
+</html>
