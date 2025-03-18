@@ -39,8 +39,6 @@
 
 ### 5. Configure Database Connection 
    - The default database settings are in the `app/database.py` file
-   - If you need to change the database connection, you can edit the variables in this file:
-
    - DATABASE_URL - complete connection string (e.g. postgresql://username:password@localhost/dbname)
 
 
