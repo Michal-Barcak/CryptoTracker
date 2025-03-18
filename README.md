@@ -26,21 +26,19 @@
    - `GRANT ALL PRIVILEGES ON DATABASE cryptodb TO cryptouser;`
    - `\q`
 
-
 ### 3. Clone repo:
-   - git clone [gh repo clone Michal-Barcak/CryptoTracker]
+   - Download the code using the command: `git clone https://github.com/Michal-Barcak/CryptoTracker.git`
 
+Or use the green "Code" button at the top of this page
 
 ### 4. Create and activate virtual environment and install dependencies:
    - `python -m venv .venv`
    - Ubuntu/Debian: `source .venv/bin/activate` or Windows: `.venv\Scripts\activate`
    - `pip install -r requirements.txt`
 
-
 ### 5. Configure Database Connection 
    - The default database settings are in the `app/database.py` file
    - DATABASE_URL - complete connection string (e.g. postgresql://username:password@localhost/dbname)
-
 
 ### 6. Run application:
    - `uvicorn app.main:app --reload`
