@@ -11,7 +11,7 @@
       - `sudo apt install postgresql`
       - `sudo systemctl start postgresql`
    - Windows: 
-      - Stiahnite inštalátor z [postgresql.org](https://www.postgresql.org/download/windows/)
+      - Download installer from [postgresql.org](https://www.postgresql.org/download/windows/)
    - macOS: 
       - `brew install postgresql` 
       - `brew services start postgresql`
