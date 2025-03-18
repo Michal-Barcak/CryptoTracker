@@ -28,7 +28,7 @@
 
 
 ### 3. Clone repo:
-   - git clone [URL repo]
+   - git clone [gh repo clone Michal-Barcak/CryptoTracker]
 
 
 ### 4. Create and activate virtual environment and install dependencies:
