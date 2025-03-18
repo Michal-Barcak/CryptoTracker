@@ -29,8 +29,6 @@
 ### 3. Clone repo:
    - Download the code using the command: `git clone https://github.com/Michal-Barcak/CryptoTracker.git`
 
-Or use the green "Code" button at the top of this page
-
 ### 4. Create and activate virtual environment and install dependencies:
    - `python -m venv .venv`
    - Ubuntu/Debian: `source .venv/bin/activate` or Windows: `.venv\Scripts\activate`
